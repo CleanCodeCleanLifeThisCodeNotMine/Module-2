@@ -37,6 +37,7 @@ public class MaterialMananger {
     public void sortMaterials() {
         materials.sort(Comparator.comparingInt(Material::getCost)); //?
     }
+
     //Tinh chenh lech chiet khau va nguyen gia
     public double calDiffDiscountvsStockPrice() {
         double stockPrice = 0;

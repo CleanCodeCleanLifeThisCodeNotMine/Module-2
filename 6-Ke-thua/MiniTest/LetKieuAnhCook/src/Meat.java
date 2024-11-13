@@ -22,6 +22,7 @@ public class Meat extends Material {
         return getCost()*weight;
     }
 
+    @Override
     public LocalDate getExpiryDate(){
         return getManufacturingDate().plusDays(7);
     }
