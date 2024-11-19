@@ -47,6 +47,5 @@ public abstract class Material {
 
     public abstract double getAmount();
     public abstract LocalDate getExpiryDate();
-
     public abstract double getRealMoney();
 }

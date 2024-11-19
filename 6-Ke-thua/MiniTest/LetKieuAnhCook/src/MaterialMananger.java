@@ -54,5 +54,4 @@ public class MaterialMananger {
     public List<Material> getMaterials() {
         return materials;
     }
-
 }
