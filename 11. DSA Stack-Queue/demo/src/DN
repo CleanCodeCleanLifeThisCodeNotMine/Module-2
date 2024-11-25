@@ -1,0 +1,6 @@
+boolean add(object): Thêm phần tử được chỉ định vào Queue. Nếu thêm thành công trả về true, ngược lại nó sẽ ném ra ngoại lệ
+boolean offer(object): Thêm phần tử được chỉ định vào Queue. Nếu thêm thành công trả về true, ngược lại trả về false
+Object remove(): Trả về phần tử đầu tiên và xóa phần tử đó.Nếu queue trống sẽ ném ra ngoại lệ
+Object poll(): Trả về phần tử đầu tiên và xóa phần tử đó. Nếu queue trống sẽ trả về null
+Object element(): Trả về phần tử đầu tiên của queue. Nếu queue trống sẽ ném ra ngoại lệ
+Object peek(): Trả về phần tử đầu tiên của queue. Nếu queue trống sẽ trả về null
