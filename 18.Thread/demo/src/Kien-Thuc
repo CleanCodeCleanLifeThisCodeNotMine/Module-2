@@ -1,0 +1,5 @@
+Synchronized: Khi cần đồng bộ hóa đơn giản, ít phức tạp.
+ReentrantLock: Khi cần kiểm soát linh hoạt hơn (như thử khóa hoặc khóa có thời gian).
+Atomic classes: Khi thao tác trên biến nguyên tử đơn giản.
+Semaphore: Khi cần kiểm soát số lượng thread truy cập tài nguyên.
+ReadWriteLock: Khi hệ thống chủ yếu là đọc dữ liệu.
