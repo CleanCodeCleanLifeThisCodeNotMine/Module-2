@@ -19,7 +19,7 @@ public class Count implements Runnable {
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
-            System.out.println("My thread interrupted");
+            System.out.println("My thread interrupted!");
         }
         System.out.println("My thread run is over");
     }
